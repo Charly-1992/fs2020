@@ -1,10 +1,10 @@
 variable "zone3" {
-  default = "us-south-3"
+  default = "eu-de-2"
 }
 
 variable "zone3_cidr" {
- 
-  default = "172.16.3.0/24"
+
+  default = "10.60.3.0/24"
 }
 
 resource "ibm_is_vpc_address_prefix" "vpc-ap3" {
