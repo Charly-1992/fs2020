@@ -18,6 +18,15 @@ variable "zone2" {
   description = "Define the 2nd zone of the region"
 }
 
+variable "zone3" {
+  default = "eu-de-2"
+}
+
+variable "zone3_cidr" {
+
+  default = "10.60.2.0/24"
+}
+
 variable "zone1_cidr" {
   default = "10.60.0.0/24"
   description = "CIDR block to be used for zone 1"

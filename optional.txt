@@ -4,7 +4,7 @@ variable "zone3" {
 
 variable "zone3_cidr" {
 
-  default = "10.60.3.0/24"
+  default = "10.60.2.0/24"
 }
 
 resource "ibm_is_vpc_address_prefix" "vpc-ap3" {
